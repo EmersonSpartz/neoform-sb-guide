@@ -31,9 +31,15 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
 .c .q { font-weight: 700; font-size: 11px; color: #e05a5a; margin-right: 3px; }
 .c .qi { font-weight: 700; font-size: 11px; color: #4caf6b; margin-right: 3px; }
 .gc-note { padding: 6px 11px 8px; border-top: 1px solid #1a1a1a; font-size: 11px; color: #666; font-style: italic; line-height: 1.5; }
+
+.pkg { display: inline-block; margin-left: 6px; padding: 1px 5px; border-radius: 8px; font-size: 9px; font-weight: 700; letter-spacing: 0.3px; text-transform: uppercase; vertical-align: middle; }
+.pkg.yes { background: #1a3a2a; color: #6ad48b; border: 1px solid #2a5a3a; }
+.pkg.no { background: #2a1a1a; color: #b06868; border: 1px solid #4a2a2a; }
+.pkg.flex { background: #3a2a1a; color: #d4a06a; border: 1px solid #5a4a2a; }
 </style>
 </head>
 <body>
+<div style="background:#1a1a1a; padding:8px 16px; border-bottom:1px solid #222; font-size:11px; color:#888;">Icefang/Oculus package: <span class="pkg yes">Icefang+</span> uses it &nbsp; <span class="pkg flex">flex</span> sometimes &nbsp; <span class="pkg no">no Icefang</span> not used</div>
 <div class="top-bar">
   <h1>Neoform SB Guide</h1>
   <div class="subtitle">Guide A (detailed, OTP/OTD) / Guide B / Guide C (grid)</div>
@@ -45,7 +51,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">kanister #2</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">kanister #2 <span class="pkg flex">flex</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Elesh Norn</div>
@@ -57,7 +63,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#a0a0e0">kanister</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#a0a0e0">kanister <span class="pkg flex">flex</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -74,7 +80,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">1 Nature's Claim</div>
@@ -91,7 +97,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Hooting Mandrills</div>
@@ -109,7 +115,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Into the Flood Maw</div>
@@ -128,7 +134,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">1</span>Hooting Mandrills</div>
@@ -142,26 +148,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">1</span>Endurance</div>
-          <div class="c in"><span class="qi">1</span>Hooting Mandrills</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">3</span>Consign to Memory</div>
-          <div class="c in"><span class="qi">3</span>Veil of Summer</div>
-          <div class="c in"><span class="qi">3</span>Nature's Claim</div>
-          <div class="c in"><span class="qi">1</span>Elesh Norn</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only - OUT cards not specified</div>
-    </div>
 
   </div>
 </div>
@@ -172,7 +158,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">millguy (vs. Esper Blink)</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">millguy (vs. Esper Blink) <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Mystical Dispute</div>
@@ -184,7 +170,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">Occultatum</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">Occultatum <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">2/4 Veil of Summer</div>
@@ -198,7 +184,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">Mengu</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">Mengu <span class="pkg yes">Icefang+</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Mystical Dispute</div>
@@ -214,7 +200,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Hooting Mandrills</div>
@@ -235,7 +221,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Hooting Mandrills</div>
@@ -255,48 +241,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">OTD</div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">1</span>Into the Flood Maw</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">3</span>Nature's Claim</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-          <div class="c in"><span class="qi">1</span>Xenagos</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Jeskai Blink — grid data only</div>
-    </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">4</span>Summoner's Pact</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">1</span>Into the Flood Maw</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-          <div class="c in"><span class="qi">1</span>Xenagos</div>
-          <div class="c in"><span class="qi">1</span>Abhorrent Oculus</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Esper Blink — grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -307,7 +252,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#90c0c0">millguy</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#90c0c0">millguy <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">1 Hooting Mandrills</div>
@@ -321,7 +266,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0c060">Togores</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0c060">Togores <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -340,7 +285,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#e0a070">EpicStorm</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#e0a070">EpicStorm <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -353,7 +298,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">No Mystical?!</div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70c090">Mengu</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70c090">Mengu <span class="pkg yes">Icefang+</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Mystical Dispute</div>
@@ -368,7 +313,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Mystical Dispute</div>
@@ -384,7 +329,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's State</div>
@@ -402,7 +347,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's Claim</div>
@@ -418,21 +363,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">3</span>Veil of Summer</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">1</span>Into the Flood Maw</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -443,7 +373,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's State</div>
@@ -457,7 +387,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Into the Flood Maw</div>
@@ -471,7 +401,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's Claim</div>
@@ -486,21 +416,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">3</span>Veil of Summer</div>
-          <div class="c in"><span class="qi">3</span>Nature's Claim</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -511,7 +426,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">kanister</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">kanister <span class="pkg flex">flex</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Nature's Claim</div>
@@ -536,7 +451,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">Togores</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">Togores <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -550,7 +465,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">Did NOT take out Veil — stops Vexing Bauble</div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">Mikedevo</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">Mikedevo <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">1 Into the Flood Maw</div>
@@ -564,7 +479,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">Occultatum (alt)</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">Occultatum (alt) <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">2 of 3 Nature's Claim</div>
@@ -577,7 +492,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">Occultatum</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">Occultatum <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -589,7 +504,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Hooting Mandrills</div>
@@ -609,7 +524,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's Claim</div>
@@ -627,26 +542,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">Listed as just "Eldrazi"</div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">4</span>Summoner's Pact</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">3</span>Veil of Summer</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">1</span>Into the Flood Maw</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">3</span>Nature's Claim</div>
-          <div class="c in"><span class="qi">1</span>Abhorrent Oculus</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Eldrazi Tron — grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -657,7 +552,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#90c0c0">millguy</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#90c0c0">millguy <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Nature's Claim</div>
@@ -669,7 +564,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#e0a070">EpicStorm</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#e0a070">EpicStorm <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -683,7 +578,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -695,7 +590,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70c090">Mengu</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70c090">Mengu <span class="pkg yes">Icefang+</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Nature's Claim</div>
@@ -708,7 +603,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Into the Flood Maw</div>
@@ -724,7 +619,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's Claim</div>
@@ -738,26 +633,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">1</span>Hooting Mandrills</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">1</span>Veil of Summer</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">1</span>Into the Flood Maw</div>
-          <div class="c in"><span class="qi">3</span>Nature's Claim</div>
-          <div class="c in"><span class="qi">1</span>Abhorrent Oculus</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -768,7 +643,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#90c0c0">millguy</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#90c0c0">millguy <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Mystical Dispute</div>
@@ -781,7 +656,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
@@ -801,7 +676,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
@@ -821,7 +696,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Veil of Summer</div>
@@ -841,27 +716,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">Listed as "Goryos"</div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">4</span>Summoner's Pact</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">1</span>Into the Flood Maw</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">3</span>Nature's Claim</div>
-          <div class="c in"><span class="qi">1</span>Xenagos</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only — listed as "Goryo"</div>
-    </div>
 
   </div>
 </div>
@@ -872,7 +726,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70c090">Mengu</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70c090">Mengu <span class="pkg yes">Icefang+</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Ice-Fang Coatl</div>
@@ -886,7 +740,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Into the Flood Maw</div>
@@ -901,7 +755,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">1</span>Nature's Claim</div>
@@ -917,22 +771,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">1</span>Endurance</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">1</span>Into the Flood Maw</div>
-          <div class="c in"><span class="qi">1</span>Abhorrent Oculus</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -943,7 +781,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0c060">Togores</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0c060">Togores <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -958,7 +796,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#e0a070">EpicStorm</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#e0a070">EpicStorm <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -970,7 +808,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Into the Flood Maw</div>
@@ -986,7 +824,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Into the Flood Maw</div>
@@ -1002,7 +840,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">1</span>Hooting Mandrills</div>
@@ -1016,25 +854,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">4</span>Summoner's Pact</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">1</span>Xenagos</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only — listed as "Prowess"</div>
-    </div>
 
   </div>
 </div>
@@ -1045,7 +864,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Veil of Summer</div>
@@ -1062,7 +881,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
@@ -1082,7 +901,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">1</span>Hooting Mandrills</div>
@@ -1102,25 +921,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">Dimir Murktide</div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">1</span>Hooting Mandrills</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">1</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">1</span>Into the Flood Maw</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">1</span>Elesh Norn</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -1131,7 +931,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
@@ -1147,28 +947,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">1</span>Endurance</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">4</span>Summoner's Pact</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">3</span>Nature's Claim</div>
-          <div class="c in"><span class="qi">1</span>Elesh Norn</div>
-          <div class="c in"><span class="qi">1</span>Abhorrent Oculus</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-          <div class="c in"><span class="qi">1</span>Xenagos</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -1179,7 +957,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#a0a0e0">kanister</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#a0a0e0">kanister <span class="pkg flex">flex</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Voice of Victory / Temple Garden</div>
@@ -1198,7 +976,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
@@ -1216,7 +994,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">1</span>Hooting Mandrills</div>
@@ -1233,24 +1011,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">2</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">4</span>Summoner's Pact</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">3</span>Nature's Claim</div>
-          <div class="c in"><span class="qi">1</span>Xenagos</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -1261,7 +1021,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
@@ -1281,27 +1041,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">4</span>Summoner's Pact</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">1</span>Elesh Norn</div>
-          <div class="c in"><span class="qi">1</span>Abhorrent Oculus</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-          <div class="c in"><span class="qi">1</span>Xenagos</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -1312,7 +1051,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Into the Flood Maw</div>
@@ -1335,7 +1074,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#90c0c0">millguy</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#90c0c0">millguy <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Mystical Dispute</div>
@@ -1352,7 +1091,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
@@ -1368,24 +1107,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">2</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">4</span>Summoner's Pact</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">1</span>Xenagos</div>
-          <div class="c in"><span class="qi">1</span>Eldritch Evolution OTD</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only</div>
-    </div>
 
   </div>
 </div>
@@ -1396,7 +1117,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Into the Flood Maw</div>
@@ -1414,7 +1135,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's Claim</div>
@@ -1431,27 +1152,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">Broodscale Combo</div>
     </div>
 
-    <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#b070d0">Guide C</span></div>
-      <div class="gc-cols">
-        <div class="col-in"><div class="col-head">IN</div>
-          <div class="c in"><span class="qi">2</span>Nourishing Shoal</div>
-          <div class="c in"><span class="qi">3</span>Pact of Negation</div>
-          <div class="c in"><span class="qi">4</span>Summoner's Pact</div>
-          <div class="c in"><span class="qi">1</span>Ureni the Song Unending</div>
-          <div class="c in"><span class="qi">4</span>Ice-Fang Coatl</div>
-          <div class="c in"><span class="qi">1</span>Into the Flood Maw</div>
-          <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
-          <div class="c in"><span class="qi">1</span>Abhorrent Oculus</div>
-          <div class="c in"><span class="qi">1</span>Snow-covered Forest</div>
-          <div class="c in"><span class="qi">1</span>Xenagos</div>
-        </div>
-        <div class="col-out"><div class="col-head">OUT</div>
-          <div class="c out">—</div>
-        </div>
-      </div>
-      <div class="gc-note">Grid data only — listed as "Gruul Eldrazi"</div>
-    </div>
 
   </div>
 </div>
@@ -1462,7 +1162,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Hooting Mandrills</div>
@@ -1488,7 +1188,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0c060">Togores</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0c060">Togores <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Mystical Dispute</div>
@@ -1505,7 +1205,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c08070">Mikedevo</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c08070">Mikedevo <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Mystical Dispute</div>
@@ -1520,7 +1220,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">3</span>Mystical Dispute</div>
@@ -1549,7 +1249,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#e0a070">EpicStorm</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#e0a070">EpicStorm <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Veil of Summer</div>
@@ -1563,7 +1263,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">?!</div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Veil of Summer</div>
@@ -1579,7 +1279,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#888">kanister #2</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#888">kanister #2 <span class="pkg flex">flex</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Veil of Summer</div>
@@ -1591,7 +1291,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">NO Mystical Dispute this time</div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#a0a0e0">kanister</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#a0a0e0">kanister <span class="pkg flex">flex</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Mystical Dispute</div>
@@ -1611,7 +1311,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c08070">Mikedevo</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c08070">Mikedevo <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">Into the Flood Maw</div>
@@ -1626,7 +1326,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       <div class="gc-note">NOT Mystical Dispute?!</div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Into the Flood Maw</div>
@@ -1647,7 +1347,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#e090c0">Occultatum <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in">3/4 Veil of Summer</div>
@@ -1661,7 +1361,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
       </div>
     </div>
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Hooting Mandrills</div>
@@ -1684,7 +1384,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's State</div>
@@ -1700,7 +1400,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
     </div>
 
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#c0a050">Guide A <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's State</div>
@@ -1725,7 +1425,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; b
   </div>
   <div class="mu-body">
     <div class="gc">
-      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B</span></div>
+      <div class="gc-head"><span class="gc-author" style="color:#70a0c0">Guide B <span class="pkg no">no Icefang</span></span></div>
       <div class="gc-cols">
         <div class="col-in"><div class="col-head">IN</div>
           <div class="c in"><span class="qi">2</span>Nature's Claim</div>
